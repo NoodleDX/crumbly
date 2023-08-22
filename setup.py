@@ -5,6 +5,4 @@ setup(
     version='0.1',
     author='NoodleDX',
     packages=find_packages(),
-    install_requires=[
-    ],
 )
