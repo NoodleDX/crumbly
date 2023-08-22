@@ -26,7 +26,7 @@ To use the **Crumbly Library**, you can ~~download it off of PyPI using `pip ins
 
 ### Stable release
 
-Download the provided ZIP file in the Releases page (`crumbly_vXXXX_XX_XX.zip`) and include it in your project directory. Then, simply import the `Crumb` class into your Python code.
+Download the provided ZIP file in the Releases page (`crumbly_vXXXX_XX_XX.zip`) and include the `crumbly.py` file from inside the ZIP in your project directory. Then, simply import the `Crumb` class into your Python code.
 
 ### Unstable release
 
