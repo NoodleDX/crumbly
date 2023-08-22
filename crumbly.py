@@ -56,7 +56,7 @@ class Crumb():
     def clear(self):
         self.data.clear()
 
-    def toDict(self):
+    def toDict(self):  # I'll be honest I don't know if this works or not cuz idk how to use my own library
         return self.data
     
     def makeJSON(self):
