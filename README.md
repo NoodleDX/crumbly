@@ -22,7 +22,7 @@ Oh yeah also this was the first name that came to mind, and it *kinda*.... sucks
 
 ## Installation
 
-To use the **Crumbly Library**, you can download it off of PyPI using `pip install crumbly`
+To use the **Crumbly Library**, you can ~~download it off of PyPI using `pip install crumbly`~~ don't. gh actions is being really stupid and I don't know why it's not working. please, *PLEASE* dm me on discord at @noodledx if you know why
 
 Or, download the provided ZIP file in the Releases page (`crumbly.zip`) and include it in your project directory. Then, simply import the `Crumb` class into your Python code.
 
