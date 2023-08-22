@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "crumbly"
+version = "0.1"
+authors = ["NoodleDX"]
+description = "A Python library for versatile and user-friendly data storage and management."
+readme = "README.md"
+homepage = "https://github.com/noodledx/crumbly"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+[tool.poetry.dependencies.setuptools]
+version = ">=40.8.0"
+
+[tool.poetry.dependencies.wheel]
+optional = true
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+
+[tool.poetry.plugins]
