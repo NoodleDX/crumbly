@@ -23,3 +23,5 @@ setup(
         'Topic :: Utilities',
     ],
 )
+
+# dang it gh actions look see the setup.py is RIGHT HERE
