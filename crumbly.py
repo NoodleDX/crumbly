@@ -6,41 +6,39 @@
 # ==========================================
 
 # Check the README for the usage docs!
+import json
+
 class Crumb():
     '''A Crumb object.
     Usage: crumbname = Crumb(var=value, var2=value, var3=value, etc)'''
+    
     def __init__(self, **kwargs):
         self.data = kwargs
-    
+
     def __getattr__(self, key):
         if key in self.data:
             return self.data[key]
         else:
             raise KeyError(f"The key '{key}' does not exist in that Crumb")
-    
-    def _setattr__(self, key, value):
+
+    def __setattr__(self, key, value):
         if key == "data":
             super().__setattr__(key, value)
         else:
             self.data[key] = value
-    
+
     def __delattr__(self, key):
         if key in self.data:
             del self.data[key]
         else:
             raise KeyError(f"The key '{key}' does not exist in that Crumb")
-    
+
     def __str__(self):
         return str(self.data)
 
     def __repr__(self):
         return f"Crumb({self.data})"
 
-    def addData(self, key, value):
-        '''Adds data to a Crumb.
-        Usage: crumbname.addData('var', value)'''
-        self.data[key] = value
-    
     def __len__(self):
         return len(self.data)
 
@@ -64,26 +62,19 @@ class Crumb():
         Usage: crumb2name = crumbname.copy()'''
         return Crumb(**self.data)
 
-    def hasKey(self, key):
-        '''Returns True or False depending on if a Crumb has that key.
-        Usage: crumbname.hasKey('key')'''
-        return key in self.data
-
     def clear(self):
         '''Deletes every key in a Crumb.
         Usage: crumbname.clear()'''
         self.data.clear()
-    
-    def makeJSON(self):
+
+    def to_json(self):
         '''Turns a Crumb into JSON data.
-        Usage: json_crumb = crumbname.makeJSON()'''
-        import json
+        Usage: json_crumb = crumbname.to_json()'''
         return json.dumps(self.data)
 
     @classmethod
-    def crumbFromJSON(cls, json_string):
+    def from_json(cls, json_string):
         '''Makes a Crumb out of JSON data.
-        Usage: crumbname = Crumb.crumbfromJSON('{"var": value, "var2": value, etc}')'''
-        import json
+        Usage: crumbname = Crumb.from_json('{"var": value, "var2": value, etc}')'''
         data = json.loads(json_string)
         return cls(**data)
