@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='crumbly',
-    version='1.0',
+    version='2023.9.25',
     author='NoodleDX',
     packages=find_packages(),
     description='A Python library for versatile and user-friendly data storage and management.',
@@ -23,5 +23,3 @@ setup(
         'Topic :: Utilities',
     ],
 )
-
-# dang it gh actions look see the setup.py is RIGHT HERE
