@@ -22,7 +22,9 @@ Oh yeah also this was the first name that came to mind, and it *kinda*.... sucks
 
 ## Installation
 
-To use the **Crumbly Library**, you can ~~download it off of PyPI using `pip install crumbly`~~ no pypi. gh actions is being really stupid and I don't know why it's not working. please, *PLEASE* dm me on discord at @noodledx if you know why
+To use the **Crumbly Library**, you can download it off of PyPI using `pip install crumbly` 
+
+Or,
 
 ### Stable release
 
