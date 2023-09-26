@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='crumbly',
-    version='2023.9.25',
+    version='1.2',
     author='NoodleDX',
     packages=find_packages(),
     description='A Python library for versatile and user-friendly data storage and management.',
