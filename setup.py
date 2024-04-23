@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name='crumbly',
     version='1.2',
-    author='NoodleDX',
+    author='CapnSushiOfTheSea',
     packages=find_packages(),
     description='A Python library for versatile and user-friendly data storage and management.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/noodledx/crumbly',
+    url='https://github.com/CapnSushiOfTheSea/crumbly',
     license='MIT',
     classifiers=[
         'Development Status :: 3 - Alpha',
