@@ -2,7 +2,9 @@
 #             Crumbly Library
 #      The (useless probably) library
 #  for giving something multiple variables
-#               By NoodleDX
+#           Or something idk man
+#
+#           By CapnSushiOfTheSea
 # ==========================================
 
 # Check the README for the usage docs!
