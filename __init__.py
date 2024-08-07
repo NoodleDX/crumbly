@@ -4,7 +4,7 @@
 #  for giving something multiple variables
 #           Or something idk man
 #
-#           By CapnSushiOfTheSea
+#               By Sushii64
 # ==========================================
 
 # Check the README for the usage docs!
