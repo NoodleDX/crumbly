@@ -8,7 +8,7 @@ setup(
     description='A Python library for versatile and user-friendly data storage and management.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/CapnSushiOfTheSea/crumbly',
+    url='https://github.com/Sushii64/crumbly',
     license='GNU GPL V3',
     classifiers=[
         'Development Status :: 3 - Alpha',
