@@ -1,4 +1,6 @@
 # Crumbly
+It just (27/02/2025) occurred to me that this is literally just a glorified dictionary :sob:
+It's neat but like come on this literally has nearly the exact features of a dictionary
 
 ## Introduction
 
